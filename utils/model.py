@@ -2,8 +2,8 @@ import numpy as np
 from utils.helperfuncs import get_matrix_from_img
 from sklearn.linear_model import LogisticRegression
 
-pos_examples_path = "C:/Users/admin/Desktop/DinoGameRewrite/data/pos examples"
-neg_examples_path = "C:/Users/admin/Desktop/DinoGameRewrite/data/neg examples"
+pos_examples_path = "/home/pierre/Dino-Game-AI/data/pos examples"
+neg_examples_path = "/home/pierre/Dino-Game-AI/data/neg examples"
 
 pos_features = get_matrix_from_img(pos_examples_path)
 neg_features = get_matrix_from_img(neg_examples_path)
